@@ -1,6 +1,6 @@
 import os
 
-path = "day2\\input.txt" if os.name == "nt" else "./input.txt" 
+path = "input.txt" 
 data = []
 with open(path, "r") as file:
     lines = file.readlines()

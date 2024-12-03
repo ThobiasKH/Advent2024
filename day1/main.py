@@ -1,6 +1,6 @@
 import os
 
-path = "day1\\input.txt" if os.name == "nt" else "./input.txt" 
+path = "input.txt" 
 list1 = []
 list2 = []
 
