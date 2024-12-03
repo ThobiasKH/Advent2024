@@ -1,5 +1,8 @@
+import os
+
+path = "day2\\input.txt" if os.name == "nt" else "./input.txt" 
 data = []
-with open("day2/input.txt", "r") as file:
+with open(path, "r") as file:
     lines = file.readlines()
     for line in lines:
         x = line.strip().split()

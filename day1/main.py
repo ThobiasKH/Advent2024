@@ -1,7 +1,10 @@
+import os
+
+path = "day1\\input.txt" if os.name == "nt" else "./input.txt" 
 list1 = []
 list2 = []
 
-with open("day1/input.txt", "r") as file:
+with open(path, "r") as file:
     lines = file.readlines()
     for line in lines:
         l = line.strip().split()
